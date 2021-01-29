@@ -318,4 +318,65 @@ section:not(.hero){
 }
 
 
-/*hello*/
+/*Portfolio*/
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 2.5rem;
+}
+
+.my-brain .grid-item{
+    background-color: #fff;
+    box-shadow: 0 .5rem 2rem rgba(0,0,0,.1);
+    padding: 2rem;
+    border-bottom: 3px solid transparent;
+    position: relative;
+}
+
+.grid-item.orange{
+    border-bottom-color: var(--orange-color);
+}
+
+.grid-item.blue{
+    border-bottom-color: var(--blue-color);
+}
+
+.grid-item.purple{
+    border-bottom-color: var(--purple-color);
+}
+
+.grid-item.dark-blue{
+    border-bottom-color: var(--dark-blue-color);
+}
+
+.orange i{
+    color: var(--orange-color);
+}
+
+.blue i{
+    color: var(--blue-color);
+}
+
+.purple i{
+    color: var(--purple-color);
+}
+
+.item-icon{
+    display: block;
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+}
+
+.item-heading{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 2rem;
+}
+
+.margin-top{
+    margin-top: 5rem;
+}
+
+
