@@ -385,7 +385,7 @@ section:not(.hero){
     position: absolute;
     top: 1rem;
     left: -1rem;
-    display: flex;
+    text-align: center;
 }
 
 .item-skill::before{
@@ -421,3 +421,22 @@ section:not(.hero){
     border-right-color: var(--purple-color);
 }
 
+.skill-name{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: var(--light-color);
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.skill-description{
+    margin-top: 5rem;
+    padding: 3rem 0;
+    line-height: 2;
+}
+
+/* Motto styles*/
+.motto{
+    height: 30vh;
+    background: url("./images/section_background.jpg") bottom/cover;
+}
