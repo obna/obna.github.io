@@ -657,7 +657,7 @@ section:not(.hero){
 }
 
 .btn-blue:hover{
-    background-color: rgba(51, 45, 45, 0.5);
+    background-color:  #2977b1;
 }
 .load-more .btn{
     margin-top: 2.5rem;
